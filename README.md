@@ -1,2 +1,2 @@
 # Proyecto-Uno-TechMinds
-lorem ipsum lorem ipsum ya tu sabe
+Hola Muchachos, aquí estaria el repositorio para el proyecto :D
