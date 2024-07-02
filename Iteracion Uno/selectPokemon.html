@@ -6,7 +6,10 @@
     <title>Seleccionar Pokémon</title>
 </head>
 <body>
+
+    <!--Inicio Header-->
     <header>
+        <!--Logo de Pokémon-->
         <div id="img-logo-pokemon"></div>
 
         <nav>
@@ -14,6 +17,44 @@
             <ul>Amigos</ul>
             <ul>Configuración</ul>
         </nav>
+
+        <h1>Lista de Pokémon</h1>
     </header>
+    <!--Fin Header-->
+
+    <!--Inicio de Información del Pokémon Seleccionado-->
+    <section id="sct-informacion-pokemon">
+
+        <!--Imagen del Pokemon Seleccionado-->
+        <!--!!!AGREGAR SCRIPT!!!-->
+        <div id="img-pokemon"></div>
+
+        <!--Sección de Estadisticas-->
+        <!--!!!AGREGAR SCRIPT!!!-->
+        <div id="div-stats">
+            <div id="div-type-container"></div>
+            <div id="div-stats-container"></div>
+            <button>Escoger</button>
+            <button>Mas Información</button>
+        </div>
+    </section>
+    <!--Inicio de Información del Pokémon Seleccionado-->
+
+    <!--Inicio de Navegación y Selección del Pokémon-->
+    <section id="sct-navegacion-pokemon">
+        <div id="div-buscar-pokemon">
+            <input type="search">
+            <button>Buscar</button>
+
+            <!--PlaceHolder, cambiar y implementar apropiadamente-->
+            <label for="filtro-pokemon" > Filtros</label>
+            <select name="filtro-pokemon" id="fltr-pokemon"></select>
+        </div>
+
+        <div id="div-pkmn-img-container"></div>
+    </section>
+    <!--Fin de Navegación y Selección del Pokémon-->
+
+
 </body>
 </html>
